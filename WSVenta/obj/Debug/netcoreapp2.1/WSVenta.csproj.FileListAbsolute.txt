@@ -1,0 +1,14 @@
+C:\Users\Curso\source\repos\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.deps.json
+C:\Users\Curso\source\repos\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.runtimeconfig.json
+C:\Users\Curso\source\repos\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.runtimeconfig.dev.json
+C:\Users\Curso\source\repos\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.dll
+C:\Users\Curso\source\repos\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.pdb
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cache
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cs
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfoInputs.cache
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfo.cs
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorTargetAssemblyInfo.cache
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.dll
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.pdb
+C:\Users\Curso\source\repos\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csprojAssemblyReference.cache
