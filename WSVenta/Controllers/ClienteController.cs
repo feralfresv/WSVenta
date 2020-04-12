@@ -66,7 +66,7 @@ namespace WSVenta.Controllers
             }           
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         public IActionResult Edit(ClienteRequest oClienteRequest)
         {
             Respuesta oRespuesta = new Respuesta();      

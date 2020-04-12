@@ -12736,11 +12736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Curso\\source\\repos\\WSVenta\\WSVenta\\WSVenta.csproj",
+      "projectUniqueName": "C:\\dev\\WSVenta\\WSVenta\\WSVenta.csproj",
       "projectName": "WSVenta",
-      "projectPath": "C:\\Users\\Curso\\source\\repos\\WSVenta\\WSVenta\\WSVenta.csproj",
+      "projectPath": "C:\\dev\\WSVenta\\WSVenta\\WSVenta.csproj",
       "packagesPath": "C:\\Users\\Curso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Curso\\source\\repos\\WSVenta\\WSVenta\\obj\\",
+      "outputPath": "C:\\dev\\WSVenta\\WSVenta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
