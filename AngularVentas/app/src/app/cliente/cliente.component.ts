@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiclienteService } from '../services/apicliente.service';
 
 @Component({
   selector: 'app-cliente',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClienteComponent implements OnInit {
 
-  constructor() { }
+  constructor(private apiCliente: ApiclienteService )
+    { 
+      apiCliente.getClientes()
+                .subscribe(response =>{console.log(response);})
+    }
 
-  ngOnInit(): void {
-  }
 
+  ngOnInit(): void {}
 }

@@ -17,6 +17,8 @@ namespace WSVenta
 {
     public class Startup
     {
+        readonly string MiCors = "Micors";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,6 +29,14 @@ namespace WSVenta
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => {
+                options.AddPolicy(name: MiCors,
+                                builder =>
+                                {
+                                    builder.WithOrigins("*"); 
+                                });
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API Fer", Version = "v2.0.1" });
@@ -57,6 +67,7 @@ namespace WSVenta
             });
             var option = new RewriteOptions();
             option.AddRedirect("^$", "swagger");
+            app.UseCors(MiCors);
             app.UseRewriter(option);
             app.UseMvc();
         }
