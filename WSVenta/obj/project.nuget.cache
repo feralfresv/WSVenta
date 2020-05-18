@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SSIfVJZuK1IsAnnf7sgtnSeucvtXtoFPM5KZbDwWbJEYT7GwoifuO2dyFRjDLEpk30BJgEmSNBX0lWLpIHR5SQ==",
+  "dgSpecHash": "Q7Ha9Wc8F64LIF0Fl46kd2dMT8K/dH2LYeCv8IEe2QcRPGwlzVtTD9Ep6rhMIXK0rETkwpXnq9VOgN06GQJSQA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\WSVenta.csproj",
+  "projectFilePath": "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\WSVenta.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

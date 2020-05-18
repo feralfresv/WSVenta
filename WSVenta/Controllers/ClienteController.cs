@@ -28,7 +28,7 @@ namespace WSVenta.Controllers
                     var lst = db.Cliente.ToList();                    
                     oRespuesta.Exito = 1;
                     oRespuesta.Mensaje = "Exito - 200";
-                    oRespuesta.Data = lst;
+                    oRespuesta.Data = lst; 
                     return Ok(oRespuesta);
                 }
             }
@@ -42,7 +42,7 @@ namespace WSVenta.Controllers
 
         [HttpPost]
         public IActionResult Add(ClienteRequest oClienteRequest)
-        {
+            {
             Respuesta oRespuesta = new Respuesta();
 
             try
@@ -50,7 +50,7 @@ namespace WSVenta.Controllers
                 using (VentaRealContext db = new VentaRealContext())
                 {
                     Cliente oCleinte = new Cliente();
-                    oCleinte.Cliente1 = oClienteRequest.Nombre;
+                    oCleinte.Nombre = oClienteRequest.Nombre;
                     db.Cliente.Add(oCleinte);
                     db.SaveChanges();
                     oRespuesta.Mensaje = "Exito - Post_200";
@@ -75,7 +75,7 @@ namespace WSVenta.Controllers
                 using (VentaRealContext db = new VentaRealContext())
                 {
                     Cliente oCleinte = db.Cliente.Find(oClienteRequest.id);
-                    oCleinte.Cliente1 = oClienteRequest.Nombre;
+                    oCleinte.Nombre = oClienteRequest.Nombre;
                     db.Entry(oCleinte).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     db.SaveChanges();
                     oRespuesta.Mensaje = "Put_201";

@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { Response } from '../models/response';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ApiclienteService {
 
-  url: string = 'http://localhost:5000/api/cliente';
+  url: string = 'https://localhost:44300/api/cliente/';
   constructor(
     private _http: HttpClient
   ) { }

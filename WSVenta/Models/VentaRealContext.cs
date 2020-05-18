@@ -37,7 +37,7 @@ namespace WSVenta.Models
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
-                entity.Property(e => e.Cliente1)
+                entity.Property(e => e.Nombre)
                     .IsRequired()
                     .HasColumnName("cliente")
                     .HasMaxLength(50)

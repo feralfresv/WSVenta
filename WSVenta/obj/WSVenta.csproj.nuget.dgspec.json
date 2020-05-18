@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\WSVenta.csproj": {}
+    "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\WSVenta.csproj": {}
   },
   "projects": {
-    "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\WSVenta.csproj": {
+    "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\WSVenta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\WSVenta.csproj",
+        "projectUniqueName": "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\WSVenta.csproj",
         "projectName": "WSVenta",
-        "projectPath": "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\WSVenta.csproj",
+        "projectPath": "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\WSVenta.csproj",
         "packagesPath": "C:\\Users\\Curso\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\WSVenta\\WSVenta\\WSVenta\\obj\\",
+        "outputPath": "C:\\dev\\API\\WSVenta_YoutubeHectorDLeon\\WSVenta\\WSVenta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
