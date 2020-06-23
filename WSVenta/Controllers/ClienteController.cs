@@ -25,7 +25,7 @@ namespace WSVenta.Controllers
             {
                 using (VentaRealContext db = new VentaRealContext())
                 {
-                    var lst = db.Cliente.ToList();                    
+                    var lst = db.Cliente.OrderByDescending(d=> d.Id).ToList();                    
                     oRespuesta.Exito = 1;
                     oRespuesta.Mensaje = "Exito - 200";
                     oRespuesta.Data = lst; 
@@ -53,17 +53,18 @@ namespace WSVenta.Controllers
                     oCleinte.Nombre = oClienteRequest.Nombre;
                     db.Cliente.Add(oCleinte);
                     db.SaveChanges();
-                    oRespuesta.Mensaje = "Exito - Post_200";
+                    //oRespuesta.Mensaje = "Exito - Post_200";
                     oRespuesta.Exito = 1;
-                    return Ok(oRespuesta);
+                   // return Ok(oRespuesta);
                 }
             }
             catch (Exception ex)
             {
                 oRespuesta.Mensaje = ex.Message;
-                oRespuesta.Mensaje = "400__" + ex;
-                return NotFound(oRespuesta);
-            }           
+                //oRespuesta.Mensaje = "400__" + ex;
+                //return NotFound(oRespuesta);
+            }
+            return Ok(oRespuesta);
         }
 
         [HttpPut]

@@ -33,7 +33,8 @@ namespace WSVenta
                 options.AddPolicy(name: MiCors,
                                 builder =>
                                 {
-                                    builder.WithOrigins("*"); 
+                                    builder.WithHeaders("*");
+                                    builder.WithOrigins("*");
                                 });
             });
 
