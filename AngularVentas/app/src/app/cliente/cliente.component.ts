@@ -33,8 +33,11 @@ export class ClienteComponent implements OnInit {
   }
 
   openAdd(){
-    const dialogRed = this.dialog.open(DialogClienteComponent, {
+    const dialogRef = this.dialog.open(DialogClienteComponent, {
       width: '300'
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      this.getClientes();
     });
   }
 }

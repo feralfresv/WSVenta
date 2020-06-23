@@ -10,6 +10,8 @@ import { Cliente } from 'src/app/models/cliente';
 })
 
 export class DialogClienteComponent {
+    public nombre: string;
+
     constructor(
         public dialogRef: MatDialogRef<DialogClienteComponent>,
         public apiCliente: ApiclienteService,
@@ -22,7 +24,7 @@ export class DialogClienteComponent {
 
     addCliente(){
         console.log('addcliente()');
-        const cliente: Cliente = {nombre: 'patito'};
+        const cliente: Cliente = {nombre: this.nombre};
         this.apiCliente.add(cliente).subscribe(response => {
             if (response.exito === 1){
                 this.dialogRef.close();
