@@ -11,7 +11,7 @@ namespace WSVenta.Models
         }
 
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string Cliente1 { get; set; }
 
         public ICollection<Venta> Venta { get; set; }
     }

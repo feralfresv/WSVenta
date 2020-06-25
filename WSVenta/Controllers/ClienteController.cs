@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using WSVenta.Models;
-using WSVenta.Models.Response;
-using WSVenta.Models.Request_ViewModels;
+﻿
 
 //https://www.youtube.com/watch?v=jrjRQGZVXGE
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
+using WSVenta.Models;
+using WSVenta.Models.Request_ViewModels;
+using WSVenta.Models.Response;
+
 namespace WSVenta.Controllers
 {
     [Route("api/[controller]")]
@@ -25,24 +25,24 @@ namespace WSVenta.Controllers
             {
                 using (VentaRealContext db = new VentaRealContext())
                 {
-                    var lst = db.Cliente.OrderByDescending(d=> d.Id).ToList();                    
+                    var lst = db.Cliente.OrderByDescending(d => d.Id).ToList();
                     oRespuesta.Exito = 1;
                     oRespuesta.Mensaje = "Exito - 200";
-                    oRespuesta.Data = lst; 
+                    oRespuesta.Data = lst;
                     return Ok(oRespuesta);
                 }
             }
             catch (Exception ex)
             {
                 oRespuesta.Mensaje = ex.Message;
-                oRespuesta.Mensaje = "400__" + ex;
+                oRespuesta.Mensaje = "400_" + ex;
                 return NotFound(oRespuesta);
-            }         
+            }
         }
 
         [HttpPost]
         public IActionResult Add(ClienteRequest oClienteRequest)
-            {
+        {
             Respuesta oRespuesta = new Respuesta();
 
             try
@@ -50,12 +50,12 @@ namespace WSVenta.Controllers
                 using (VentaRealContext db = new VentaRealContext())
                 {
                     Cliente oCleinte = new Cliente();
-                    oCleinte.Nombre = oClienteRequest.Nombre;
+                    oCleinte.Cliente1 = oClienteRequest.Nombre;
                     db.Cliente.Add(oCleinte);
                     db.SaveChanges();
                     //oRespuesta.Mensaje = "Exito - Post_200";
                     oRespuesta.Exito = 1;
-                   // return Ok(oRespuesta);
+                    // return Ok(oRespuesta);
                 }
             }
             catch (Exception ex)
@@ -70,13 +70,13 @@ namespace WSVenta.Controllers
         [HttpPut]
         public IActionResult Edit(ClienteRequest oClienteRequest)
         {
-            Respuesta oRespuesta = new Respuesta();      
+            Respuesta oRespuesta = new Respuesta();
             try
             {
                 using (VentaRealContext db = new VentaRealContext())
                 {
                     Cliente oCleinte = db.Cliente.Find(oClienteRequest.id);
-                    oCleinte.Nombre = oClienteRequest.Nombre;
+                    oCleinte.Cliente1 = oClienteRequest.Nombre;
                     db.Entry(oCleinte).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     db.SaveChanges();
                     oRespuesta.Mensaje = "Put_201";
@@ -87,10 +87,10 @@ namespace WSVenta.Controllers
             catch (Exception ex)
             {
                 oRespuesta.Mensaje = ex.Message;
-                oRespuesta.Mensaje = "400__"+ ex;
+                oRespuesta.Mensaje = "400__" + ex;
                 return NotFound(oRespuesta);
             }
-           
+
         }
 
         [HttpDelete("{id}")]

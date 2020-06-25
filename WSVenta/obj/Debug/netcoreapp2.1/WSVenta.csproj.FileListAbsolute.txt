@@ -35,6 +35,12 @@ C:\dev\WSVenta\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorTargetAssemb
 C:\dev\WSVenta\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.dll
 C:\dev\WSVenta\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.pdb
 C:\dev\WSVenta\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.genruntimeconfig.cache
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfoInputs.cache
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfo.cs
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csproj.CoreCompileInputs.cache
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cache
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cs
+C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csprojAssemblyReference.cache
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\release\web.config
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\appsettings.Development.json
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\appsettings.json
@@ -48,12 +54,6 @@ C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WS
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.runtimeconfig.dev.json
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.dll
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\bin\Debug\netcoreapp2.1\WSVenta.pdb
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csprojAssemblyReference.cache
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.csproj.CoreCompileInputs.cache
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cache
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorAssemblyInfo.cs
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfoInputs.cache
-C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.AssemblyInfo.cs
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.RazorTargetAssemblyInfo.cache
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.dll
 C:\dev\API\WSVenta_YoutubeHectorDLeon\WSVenta\WSVenta\obj\Debug\netcoreapp2.1\WSVenta.pdb
